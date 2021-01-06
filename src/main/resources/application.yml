@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sanjieduanlianxi?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: 123456
+  jackson:
+    date-format: yyyy-MM-dd
+mybatis:
+  mapper-locations: clas spath:mapper/*.xml
+logging:
+  level:
+    com:
+      qy25:
+        sm: debug
+
