@@ -13,4 +13,5 @@ logging:
     com:
       qy25:
         sm: debug
-
+server:
+  port: 9000
